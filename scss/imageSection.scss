@@ -1,0 +1,105 @@
+@import "../variables.scss";
+
+.imageBgSection {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/Group\ 13.png"), no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .missionBox {
+        width: 700px;
+        height: 300px;
+        border-radius: 8px;
+        background: #00334d;
+        position: absolute;
+        bottom: -60px;
+        color: white;
+
+        h3 {
+            font-size: 30px;
+            padding-top: 30px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 16px;
+            padding-left: 80px;
+            padding-right: 80px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: rgb(180, 177, 177);
+            font-size: 16px;
+            text-decoration: underline;
+            padding-left: 80px;
+        }
+    }
+}
+
+.services {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 23px;
+        color: #00334d;
+    }
+
+    .servicesBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        .service {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+
+            img {
+                object-fit: cover;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+
+            .overlay {
+                cursor: pointer;
+                transition: 0.3s;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 50%;
+                background: linear-gradient(
+                    rgba(0, 0, 0, 0.2),
+                    rgba(0, 0, 0, 0.8)
+                );
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-around;
+
+                &:hover {
+                    height: 100%;
+                }
+
+                p {
+                    color: white;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+
+                .arrow {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

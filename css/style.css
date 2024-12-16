@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "CabinetGrotesk-Medium";
+  src: url("../fonts/WEB/fonts/CabinetGrotesk-Medium.woff2") format("woff2"), url("../fonts/CabinetGrotesk-Medium.woff") format("woff"), url("../fonts/CabinetGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "CabinetGrotesk-Medium";
+}
+* body {
+  scroll-behavior: smooth;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+* .container {
+  padding-left: 100px;
+  padding-right: 100px;
+}/*# sourceMappingURL=style.css.map */

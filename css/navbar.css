@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/background.png"), no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header .container {
+  width: 100%;
+  height: 100vh;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+.header .container .navBar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .navBar ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 28px;
+}
+.header .container .navBar ul a {
+  color: white;
+  font-size: 15px;
+}
+.header .container .navBar .search {
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */

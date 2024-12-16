@@ -1,0 +1,91 @@
+.actualites {
+  width: 100%;
+  height: 100vh;
+}
+.actualites h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 23px;
+  color: #00334d;
+}
+.actualites .actuBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.actualites .actuBox .actuCart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+.actualites .actuBox .actuCart .actuTop {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.actualites .actuBox .actuCart .actuText {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.actualites .actuBox .actuCart .actuText p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.actualites .actuBox .actuCart .actuImage img {
+  border-radius: 8px;
+}
+.actualites .actubtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.actualites .actubtn .buttonActu {
+  padding: 24px 38px;
+  background: #005680;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.reference {
+  width: 100%;
+  height: 100vh;
+}
+.reference h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 23px;
+  color: #00334d;
+}
+.reference .refContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.reference .refContainer .refLogo .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.reference .refContainer .refLogo .top img {
+  width: 80px;
+}
+.reference .refContainer .refLogo .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.reference .refContainer .refLogo .bottom a {
+  font-size: 16px;
+  font-weight: bold;
+}/*# sourceMappingURL=actualites.css.map */

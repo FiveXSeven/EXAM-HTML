@@ -1,0 +1,105 @@
+.footer {
+  width: 100%;
+  height: 100vh;
+}
+.footer .footerElements {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.footer .footerElements .lienFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer .footerElements .lienFooter h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer .footerElements .lienFooter p {
+  line-height: 1.5;
+  cursor: pointer;
+  font-size: 16px;
+}
+.footer .footerElements .lienFooter a {
+  font-size: 16px;
+}
+.footer .footerElements .socialFooter .top h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer .footerElements .socialFooter .top .linkSocial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .footerElements .socialFooter .top .linkSocial img {
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.footer .footerElements .socialFooter .bottom h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer .footerElements .socialFooter .bottom .newsletter {
+  padding-top: 20px;
+}
+.footer .footerElements .socialFooter .bottom .newsletter .inputBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.footer .footerElements .socialFooter .bottom .newsletter .inputBox input {
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.footer .footerElements .socialFooter .bottom .newsletter .btnForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footerElements .socialFooter .bottom .newsletter .btnForm button {
+  padding: 24px 38px;
+  background: #005680;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 100%;
+}
+.footer .footerElements .logoFooter .logooo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer .footerElements .logoFooter .contactInfo {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+}
+.footer .footerElements .logoFooter .contactInfo .itemsFotter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer .copyright {
+  padding-top: 180px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer .copyright img {
+  width: 100px;
+}/*# sourceMappingURL=footer.css.map */

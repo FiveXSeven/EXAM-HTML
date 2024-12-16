@@ -1,0 +1,112 @@
+@import "../variables.scss";
+
+.actualites {
+    width: 100%;
+    height: 100vh;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 23px;
+        color: #00334d;
+    }
+
+    .actuBox {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        .actuCart {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 60px;
+
+            .actuTop {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .actuText {
+                padding-left: 20px;
+                padding-right: 20px;
+
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 1.2;
+                }
+            }
+
+            .actuImage {
+                img {
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+
+    .actubtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .buttonActu {
+            padding: 24px 38px;
+            background: $primary-color;
+            color: white;
+            font-size: 16px;
+            border-radius: 8px;
+            text-align: center;
+        }
+    }
+}
+
+.reference {
+    width: 100%;
+    height: 100vh;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 23px;
+        color: #00334d;
+    }
+
+    .refContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .refLogo {
+            
+            .top {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 40px;
+                margin-bottom: 10px;
+
+                img {
+                    width: 80px;
+                }
+            }
+            .bottom {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 40px;
+
+                a {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
